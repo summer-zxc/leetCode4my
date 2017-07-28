@@ -45,7 +45,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution su = new Solution();
-		int[] nums = { 3, 2, 4 };
+		int[] nums = { 3, 2, 4,5 };
 
 		int[] result = su.twoSum2(nums, 6);
 		System.out.println(Arrays.asList(result).toString());
