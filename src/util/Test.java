@@ -15,28 +15,28 @@ import org.snmp4j.transport.DefaultUdpTransportMapping;
 
 public class Test {
 	public static void main(String[] args) throws IOException {
-		File f = new File("C:/Users/lFW2917/Desktop/1111.txt");
-		byte[] by = new byte[2048];
-		try {
-			InputStream in = new FileInputStream(f);
-			while (in.available() > 0) {
-				int i = in.read(by, 0, 2048);
-				String code = "utf-8";
-				String str = new String(by, 0, i, "utf-8");
-				byte[] ss = str.getBytes("utf-8");
-				if (!Test.compare(by, ss)) {
-					code = "GBK";
-				} else {
-					code = "utf-8";
-				}
-				str = new String(by, 0, i, "GBK");
-				System.out.println(str);
-			}
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
+//		File f = new File("C:/Users/lFW2917/Desktop/1111.txt");
+//		byte[] by = new byte[2048];
+//		try {
+//			InputStream in = new FileInputStream(f);
+//			while (in.available() > 0) {
+//				int i = in.read(by, 0, 2048);
+//				String code = "utf-8";
+//				String str = new String(by, 0, i, "utf-8");
+//				byte[] ss = str.getBytes("utf-8");
+//				if (!Test.compare(by, ss)) {
+//					code = "GBK";
+//				} else {
+//					code = "utf-8";
+//				}
+//				str = new String(by, 0, i, "GBK");
+//				System.out.println(str);
+//			}
+//		} catch (FileNotFoundException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+			   System.out.println(Math.ceil(10/100));
 	}
 
 	public static boolean compare(byte[] tem1, byte[] tem2) {

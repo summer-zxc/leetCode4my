@@ -13,6 +13,7 @@ package q4h;
 public class Solution {
 
 	/**
+	 * 暴力求解
 	 * 
 	 * @param nums1
 	 * @param nums2
@@ -56,10 +57,24 @@ public class Solution {
 			if (num % 2 == 0) {
 				result1 = Double.valueOf(result[num / 2 - 1] + result[num / 2]) / 2;
 			} else {
-				result1 = result[(num-1) / 2 ];
+				result1 = result[(num - 1) / 2];
 			}
 		}
 		return result1;
+	}
+
+	/**
+	 * 二分法求解 没看懂
+	 * 
+	 * @param nums1
+	 * @param nums2
+	 * @return
+	 */
+	public double findMedianSortedArrays2(int[] nums1, int[] nums2) {
+		int m = nums1.length;
+		int n = nums2.length;
+
+		return 0;
 	}
 
 	public static void main(String[] args) {
