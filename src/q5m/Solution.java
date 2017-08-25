@@ -103,7 +103,7 @@ public class Solution {
 		Solution su = new Solution();
 		System.out.println(System.currentTimeMillis());
 		Long start = System.currentTimeMillis();
-		String s = "ccd";
+		String s = "123456789";
 		System.out.println(su.longestPalindrome2(s));
 		System.out.println((System.currentTimeMillis() - start));
 	}
