@@ -1,4 +1,4 @@
-package q4h;
+package zero.q4h;
 
 /**
  * 4. Median of Two Sorted Arrays

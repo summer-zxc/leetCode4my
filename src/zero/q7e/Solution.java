@@ -1,4 +1,4 @@
-package q7e;
+package zero.q7e;
 
 /**
  * Reverse digits of an integer.

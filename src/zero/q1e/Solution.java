@@ -1,4 +1,4 @@
-package q1e;
+package zero.q1e;
 
 import java.util.Arrays;
 import java.util.HashMap;

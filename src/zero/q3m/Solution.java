@@ -1,4 +1,4 @@
-package q3m;
+package zero.q3m;
 
 import java.util.HashMap;
 import java.util.HashSet;

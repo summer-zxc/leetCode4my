@@ -1,4 +1,4 @@
-package q5m;
+package zero.q5m;
 
 /**
  * Given a string s, find the longest palindromic substring in s. You may assume

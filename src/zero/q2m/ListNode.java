@@ -1,4 +1,6 @@
-package q2m;
+package zero.q2m;
+
+
 
 public class ListNode {
 	int val;

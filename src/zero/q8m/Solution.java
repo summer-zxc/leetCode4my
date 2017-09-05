@@ -1,4 +1,4 @@
-package q8m;
+package zero.q8m;
 
 /**
  * Implement atoi to convert a string to an integer.
