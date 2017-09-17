@@ -1,17 +1,8 @@
 package util;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 
-import org.snmp4j.PDU;
-import org.snmp4j.Snmp;
-import org.snmp4j.Target;
-import org.snmp4j.security.SecurityModels;
-import org.snmp4j.security.USM;
-import org.snmp4j.transport.DefaultUdpTransportMapping;
+
 
 public class Test {
 	public static void main(String[] args) throws IOException {
