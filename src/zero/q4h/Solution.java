@@ -71,8 +71,8 @@ public class Solution {
 	 * @return
 	 */
 	public double findMedianSortedArrays2(int[] nums1, int[] nums2) {
-		int m = nums1.length;
-		int n = nums2.length;
+//		int m = nums1.length;
+//		int n = nums2.length;
 
 		return 0;
 	}
