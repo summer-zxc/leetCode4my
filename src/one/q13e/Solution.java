@@ -1,7 +1,5 @@
 package one.q13e;
 
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Given a roman numeral, convert it to an integer.
